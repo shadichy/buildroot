@@ -7,4 +7,14 @@
 /overlay/*
 !/overlay/.empty
 
+/mount/*
+!/mount/.empty
+
+/iso/*
+!/iso/boot
+/iso/boot/*
+!/iso/boot/grub
+
+*.iso
+
 /tmp
